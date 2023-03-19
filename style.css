@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#btn {
+  background-color: #f5df92;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 0;
+  width: 100px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#contents {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content {
+    flex: 1 0 21%;
+    margin: 5px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.grass {
+    background-color: #8DD694;
+    border: 2px solid #5DAD65;
+}
+.water {
+    background-color: #8DC6E6;
+    border: 2px solid #6F9ECA;
+}
+.fire {
+    background-color: #E69D8D;
+    border: 2px solid #C67D6D;
+}
+.bug {
+    background-color: #8DDD7A;
+    border: 2px solid #A2C170;
+}
+.normal {
+    background-color: #B1B1B1;
+    border: 2px solid #959595;
+}
+.ground {
+    background-color: #EFBE85;
+    border: 2px solid #D0A068;
+}
+.fairy {
+    background-color: #EEA1E2;
+    border: 2px solid #C77FBC;
+}
+.electric {
+    background-color: #E7C859;
+    border: 2px solid #D0B34A;
+}
+.poison {
+    background-color: #A55DB1;
+    border: 2px solid #BA4A95;
+}
+
+/* #content {
+    display: none;
+    background-color: #e7c859;
+    padding: 20px;
+    color: white;
+    width: 20%;
+    margin: 0 auto;
+    border: 2px solid #d0b349;
+} */
